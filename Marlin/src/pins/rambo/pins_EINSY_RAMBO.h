@@ -79,6 +79,7 @@
 #ifndef Z_MIN_PROBE_PIN
   #define Z_MIN_PROBE_PIN  10
 #endif
+#define TEMP_PROBE_PIN      3
 
 //
 // Steppers
@@ -117,11 +118,11 @@
 #define HEATER_BED_PIN      4
 
 #ifndef FAN_PIN
-  #define FAN_PIN           8
+  #define FAN_PIN           6
 #endif
 
 #ifndef FAN1_PIN
-  #define FAN1_PIN          6
+  #define FAN1_PIN         -1
 #endif
 
 //
@@ -130,6 +131,7 @@
 #define SDSS               77
 #define LED_PIN            13
 #define CASE_LIGHT_PIN      9
+#define FIL_RUNOUT_PIN     62   
 
 //
 // M3/M4/M5 - Spindle/Laser Control
